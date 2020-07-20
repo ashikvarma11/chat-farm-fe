@@ -6,7 +6,7 @@ import Infobar from '../infobar/Infobar';
 import Messages from '../messages/Messages';
 import Input from '../input/Input';
 import TextContainer from '../textcontainer/TextContainer';
-const ENDPOINT = 'localhost:5000';
+const ENDPOINT = 'https://chat-farm.herokuapp.com/';
 let socket;
 const Chat = ({ location }) => {
 
