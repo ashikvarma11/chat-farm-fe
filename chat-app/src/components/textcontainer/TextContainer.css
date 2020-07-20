@@ -1,0 +1,37 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 30%;
+  height: 60%;
+  
+  justify-content: space-between;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+  color:var(--secondary-color) !important;
+}
+
+.activeContainer img {
+  padding-right: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+  
+  font-family: 'Montserrat';
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}

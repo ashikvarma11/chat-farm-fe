@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  color: var(--primary-color) !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--yellow-dark);
+  padding: 20px;
+  display: inline-block;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  border: none;
+  width: 20%;
+  cursor: pointer;
+}

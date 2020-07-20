@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    width:20%;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0.5em 2em;
+    
+}
+
+.navbar span{
+    color:var(--yellow-dark);
+    font-weight: 600;
+    margin-left: 0.5em;
+    letter-spacing: 0.14em;
+}
